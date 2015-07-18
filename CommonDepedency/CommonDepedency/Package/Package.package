@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="d02cb870-239c-462f-896d-f2c7743a4437" solutionId="d02cb870-239c-462f-896d-f2c7743a4437" resetWebServer="false" sharePointProductVersion="15.0" name="CommonDepedency" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <customAssembly location="Newtonsoft.Json.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll" />
+    <projectOutputAssembly location="CommonDepedency.Resiliance.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\CommonDepedency.Resiliance\CommonDepedency.Resiliance.csproj" />
+  </assemblies>
+  <features>
+    <featureReference itemId="3bdfd704-13c2-499c-9c14-07191abce3a0" />
+  </features>
+</package>
